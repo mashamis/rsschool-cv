@@ -1,0 +1,253 @@
+html {
+    position: relative;
+    max-width: 1440px;
+    height: 3735px;
+    background: #FFFFFF;
+}
+header{
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+li{
+    list-style: none;
+    display: inline-block !important;
+}
+.header__navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 42px;
+
+    position: absolute;
+    width: 527px;
+    height: 21px;
+    left: 494px;
+    top: 20px;
+}
+.logo{
+    position: absolute;
+    width: 216px;
+    height: 31px;
+    left: 120px;
+    top: 25px;
+}
+.plan_trip{
+    position: absolute;
+    width: 892px;
+    height: 422px;
+    left: 120px;
+    top: 122px;
+}
+.search{
+    position: absolute;
+    width: 892px;
+    height: 95px;
+    left: 120px;
+    top: 416px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+}
+.three_steps{
+    position: absolute;
+    width: 1177px;
+    height: 247px;
+    left: 131px;
+    top: 845px;
+}
+.this__steps{
+    position: absolute;
+    width: 1177px;
+    height: 154px;
+    left: 0px;
+    top: 93px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+
+    background: #0D606F;
+    border: 2px solid #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+
+    width: 163px;
+    height: 32px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.button_first{
+    position: absolute;
+    width: 103px;
+    height: 41px;
+    left: 1217px;
+    top: 25px;
+}
+.button_second{
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 654px;
+    top: 16px;
+}
+.button_third{
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 607px;
+    top: 2172px;
+}
+.button_fourth {
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 488px;
+    top: 1230px;
+}
+.step{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 45px;
+    width: 247px;
+    height: 154px;
+}
+.first__step{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 158px;
+    top: 20px;
+
+    background: #F2785C;
+    border-radius: 16px;
+}
+.second__step{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 500px;
+    top: 20px;
+
+    background: #F2785C;
+    border-radius: 16px;
+}
+.third__step{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 845px;
+    top: 20px;
+
+    background: #F2785C;
+    border-radius: 16px;
+}
+.square__step{
+    position: absolute;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+
+    background: #F2785C;
+    border-radius: 16px;
+}
+.stories{
+    position: absolute;
+    width: 1201px;
+    height: 1322px;
+    left: 119px;
+    top: 2311px;
+}
+.story__format{
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    left: 20px;   
+}
+.first__story{
+    top: 120px;
+}
+.second__story{
+    top: 400px;
+}
+.third__story{
+    top: 670px;
+}
+.fourth__story{
+    top: 940px;
+}
+.slider{
+    position: absolute;
+    width: 1980px;
+    height: 1042px;
+    left: -540px;
+    top: 1189px;
+    overflow: hidden;
+}
+ul.slider__list{
+    width: 2520px;
+}
+.slider_item{
+    margin-top: 100px;
+    list-style: none;
+    display: block;
+}
+footer {
+    position: absolute;
+    width: 728.96px;
+    height: 33.65px;
+    left: 590px;
+    top: 3678px;
+}
+.slider_dots{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 655px;
+    top: 2112px;    
+}
+.slider_dots input{
+    display: none;
+}
+#active label{
+    display: inline-block;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#active label:nth-child(1),
+#active label:nth-child(3){
+    background-color: rgba(242, 120, 92, 0.5) !important;
+    background: rgba(242, 120, 92, 0.5);
+}
+#active label:nth-child(2){
+    background: #F2785C;
+    background-color: #F2785C !important;
+}

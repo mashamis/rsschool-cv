@@ -1,0 +1,54 @@
+.img_up{
+    position: absolute;
+    width: 1440px;
+    height: 765px;
+    left: 0px;
+    top: 0px;
+}
+.img_down{
+    position: absolute;
+    width: 1442px;
+    height: 1331px;
+    left: 0px;
+    top: 2404px;
+}
+.background_down{
+    position: absolute;
+    width: 1445px;
+    height: 1270px;
+    left: 0px;
+    top: 2404px;
+
+    background: rgba(255, 255, 255, 0.7);
+}
+.img_logo{
+    position: absolute;
+    left: -16%;
+    right: 89.58%;
+    top: 0.7%;
+    bottom: 98.5%;
+}
+.img_steps{
+    position: absolute;
+    align-items: center;
+    left: 25%;
+    right: 25%;
+    top: 28%;
+    bottom: 27%;
+}
+.img_story{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 0px;
+
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+}
+.img_footer {
+    position: absolute;
+    width: 140.96px;
+    height: 33.65px;
+    left: 586px;
+    top: 10px;
+}
